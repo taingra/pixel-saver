@@ -1,41 +1,29 @@
-Pixel Saver
+Pixel Saver Simplifed
 ===========
 
-Pixel Saver is an extension for Gnome Shell that merge the activity bar and the
-title bar of maximized window. It is especially interesting for small screens,
-but MOAR pixels for your apps is always good !
+Pixel Saver Simplifed is an extension for Gnome Shell hides the title bar of
+maximized window. It is especially interesting for small screens, but MOAR
+pixels for your apps is always good !
 
-The extension has no configuration. Its behavior is made to mimic the one of
-the title bar and settings affecting the title bar should reflect in
-Pixel Saver. It **Just Works** !
+For applications using the modern GTK header bar there are no space savings to
+achieve a uniform appearance.
 
-For applications using the modern GTK header bar, there are no space savings,
-but the application title is still displayed in the top panel to achieve a
-uniform appearance.
-
-<table>
-	<tr>
-		<td><img src="https://raw.github.com/deadalnix/pixel-saver/master/title.png" /></td>
-		<td><img src="https://raw.github.com/deadalnix/pixel-saver/master/icons.png" /></td>
-	</tr>
-	<tr>
-		<td colspan="2">The title bar is completely gone and integrated to the activity bar.</td>
-	</tr>
-</table>
-
-It is largely inspired by [bios and mathematicalcoffee's Window Buttons Extension](https://github.com/mathematicalcoffee/Gnome-Shell-Window-Buttons-Extension) and [mathematicalcoffee's maximus extension](https://bitbucket.org/mathematicalcoffee/maximus-gnome-shell-extension) and some code come from there. You may want to check theses out, especially if you want something more configurable.
+It is currently 100% the same code as Pixel Saver, minus a few files. Pixel
+Saver is largely inspired by [bios and mathematicalcoffee's Window Buttons Extension](https://github.com/mathematicalcoffee/Gnome-Shell-Window-Buttons-Extension) and [mathematicalcoffee's maximus extension](https://bitbucket.org/mathematicalcoffee/maximus-gnome-shell-extension) and
+some code come from there. You may want to check theses out, especially if you
+want something more configurable.
 
 Installation
 ------------
 
-Install it with one click from the [GNOME extension repository](https://extensions.gnome.org/extension/723/pixel-saver/).
+Maybe I will put it into the extension store someday for conviencce.
 
 You can also follow these simply instruction for manual installation :
 
-    git clone https://github.com/deadalnix/pixel-saver.git
+    git clone https://github.com/taingram/pixel-saver.git
     cd pixel-saver
     # Get the last released version
-	git checkout 1.9
+	git checkout 1.10
     # copy to extensions directory
     cp -r pixel-saver@deadalnix.me -t ~/.local/share/gnome-shell/extensions
     # activate
@@ -56,21 +44,10 @@ present on your system, these can be installed using:
 Configuration
 -------------
 
-Don't be silly !
-
-Support for older versions of gnome shell
------------
-
-If you use an older version of gnome shell, here are the versions of pixel saver that you should use.
-
-| Gnome Shell | Latest recomanded version                                            |
-|-------------|----------------------------------------------------------------------|
-| 3.12        | [1.3](https://github.com/deadalnix/pixel-saver/releases/tag/1.3)     |
-| 3.14        | [1.5.1](https://github.com/deadalnix/pixel-saver/releases/tag/1.5.1) |
-| 3.15        | [1.10](https://github.com/deadalnix/pixel-saver/releases/tag/1.10)   |
+Fork this repo and hack away.
 
 Screenshots
 -----------
 
-If you want to see what the full desktop look like with this extension, you can check out what a [unmaximized window](https://raw.github.com/deadalnix/pixel-saver/master/unmax.png) looks like, as well as a [maximized one](https://raw.github.com/deadalnix/pixel-saver/master/max.png).
-
+When you maximize the window, the title bar is no longer there. That's it, no
+buttons added to title added to the to panel.
