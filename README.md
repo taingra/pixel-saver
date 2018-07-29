@@ -8,7 +8,7 @@ pixels for your apps is always good !
 For applications using the modern GTK header bar there are no space savings to
 achieve a uniform appearance.
 
-It is currently 100% the same code as Pixel Saver, minus a few files. Pixel
+It is currently almost 100% the same code as Pixel Saver, minus a few files. Pixel
 Saver is largely inspired by [bios and mathematicalcoffee's Window Buttons Extension](https://github.com/mathematicalcoffee/Gnome-Shell-Window-Buttons-Extension) and [mathematicalcoffee's maximus extension](https://bitbucket.org/mathematicalcoffee/maximus-gnome-shell-extension) and
 some code come from there. You may want to check theses out, especially if you
 want something more configurable.
@@ -25,9 +25,9 @@ You can also follow these simply instruction for manual installation :
     # Get the last released version
 	git checkout 1.10
     # copy to extensions directory
-    cp -r pixel-saver@deadalnix.me -t ~/.local/share/gnome-shell/extensions
+    cp -r pixel-saver@taingram.org -t ~/.local/share/gnome-shell/extensions
     # activate
-    gnome-shell-extension-tool -e pixel-saver@deadalnix.me
+    gnome-shell-extension-tool -e pixel-saver@taingram.org
 
 For code changes to become effective, you might need to reload GNOME Shell
 by pressing <kbd>Alt</kbd> + <kbd>F2</kbd> and entering <kbd>r</kbd> .
