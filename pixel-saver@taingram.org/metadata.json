@@ -2,6 +2,6 @@
     "uuid": "pixel-saver@taingram.org",
     "name": "Pixel Saver Simplifed",
     "description": "Pixel Saver Simplified is designed to save pixel by hiding the title bar in a natural way",
-    "url": "https://github.com/taingram/pixel-saver",
+    "url": "https://github.com/taingra/pixel-saver",
     "shell-version": ["3.20", "3.22", "3.24", "3.26", "3.28"]
 }
